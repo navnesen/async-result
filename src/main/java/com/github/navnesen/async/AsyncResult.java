@@ -1,9 +1,9 @@
 package com.github.navnesen.async;
 
-import com.github.navnesen.Result;
 import com.github.navnesen.result.InspectAction;
 import com.github.navnesen.result.TypeActionMap;
 import com.github.navnesen.sync.Mutex;
+import com.github.navnesen.util.Result;
 
 public class AsyncResult<T> implements Awaitable<T> {
 
